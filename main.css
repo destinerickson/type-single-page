@@ -1,4 +1,4 @@
-/*{
+{
     border: 3pxblue dashed;
 
 }
@@ -17,7 +17,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(149, 149, 149);
     font-family: ' TT Neoris TriVariable';
 }
 /* how the page wrapper will appear on mobile */
@@ -57,6 +57,7 @@ footer{
 
 /* variable font animation */
 h3{
+    color: white;
     font-weight:20; 
     text-align: center;
     font-size: 5em;
@@ -116,9 +117,9 @@ body, html {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
-        ". . s c c c c c c c c ."
-        ". . w c c c c c c c c ."
-        ". . b c c c c c c c c .";
+        ". . c c c c c c c c c ."
+        ". . c c c c c c c c c ."
+        ". . c c c c c c c c c .";
 }
 
 .contact-wrapper {
@@ -152,9 +153,9 @@ h5{margin-top:5px;}
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: auto auto auto;
       grid-template-areas: 
-      ". . s c c c c c c c c ."
-      ". . w c c c c c c c c ."
-      ". . b c c c c c c c c .";
+      ". . c c c c c c c c c ."
+      ". . c c c c c c c c c ."
+      ". . c c c c c c c c c .";
   }
   }
     /* Custom link with background and border */
