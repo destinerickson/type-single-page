@@ -1,24 +1,34 @@
-{
-    border: 3pxblue dashed;
+*{
+    /* border: 3pxblue dashed; */
+    /* margin:0; */
+    /* padding:0; */
 
 }
 
 
 
 @font-face {
-    src: url('fonts/TTNeorisVariable.woff2') format('woff2'),
-         url('fonts/TTNeorisVariable.ttf') format('truetype'); 
-       
+  src: url("./fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.woff2") format("woff2"),
+      url('./fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf') format('truetype');
 
-
-    font-family: 'TTNeorisVariable';
-    font-style: normal;
-    font-weight: normal;
-    }
-    
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: normal;
+  }
     body{
-    background-color: rgb(149, 149, 149);
-    font-family: ' TT Neoris TriVariable';
+    background-color: rgb(255, 255, 255);
+    color: rgb(115, 87, 184);
+    font-family: 'Roboto Flex'; 
+}
+.hero{
+  background-color: rgb(115,87,184);
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.flip{
+  transform: rotate(180deg);
+  margin:0;
+  padding:0;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -27,8 +37,8 @@
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
-.page-wrapper{
+/* @media only screen and (min-width:800px){ */
+/* .page-wrapper{
 display: grid;
 grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
@@ -36,12 +46,12 @@ grid-template-rows: auto;
 grid-template-areas: 
     "h v"
     "a a";
-}
-
+} */
+ 
 .history {
 grid-area: h;
 }
-
+.history-paragraph{ color:pink;}
 .variations{
 grid-area: v;
 }
@@ -52,15 +62,18 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 
+p{
+  text-indent:10px;
+}
 /* variable font animation */
 h3{
     color: white;
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 8em;
     animation: weightChange 7s infinite;
 }
 
@@ -175,7 +188,7 @@ h5{margin-top:5px;}
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgba(75, 55, 55, 0.2);
         top: 0;
         left: -100%;
         transition: left 0.3s;
