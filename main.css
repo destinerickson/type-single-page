@@ -59,9 +59,9 @@ background-color: rgb(115, 87, 184);
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto auto;
   grid-template-areas: 
-      ". r r s s s . w w w w ."
-      ". r r s s s . w w w w ."
-      ". r r s s s . w w w w .";
+      ". r r s s s w w w w w ."
+      ". r r s s s w w w w w ."
+      ". r r s s s w w w w w .";
 }
 
 .huge-r{
@@ -72,8 +72,9 @@ background-color: rgb(115, 87, 184);
 .small-title{
 grid-area: s;
 color:white;
-font-size:100px;
-padding-top:50px;
+margin-left: -30;
+font-size:120px;
+padding-top:110px;
 writing-mode:vertical-lr;
 /* transform-origin: center; */
 /* transform: rotate(90deg); */
@@ -99,6 +100,15 @@ grid-area: v;
 
 .alphabet {
 grid-area: a;
+}
+.early-development{
+background-color: #fff;
+  
+}
+
+.languages{
+background-color: #fff;
+
 }
 
 /* CSS for the footer */
