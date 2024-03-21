@@ -26,7 +26,7 @@
       padding-top:10px;
       top: 100%;
       left: 0;
-      background: rgb(0, 0, 0);
+      background: rgb(115, 87, 184);
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -54,7 +54,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: rgb(255, 0, 162);
+      color: rgb(166, 166, 166);
   }
   
   .nav-checkbox:checked ~ nav {
