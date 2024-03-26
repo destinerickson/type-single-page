@@ -232,6 +232,7 @@ h5{margin-top:5px;}
  
     /* Custom link with background and border */
     .custom-link {
+      margin-left: 700px;
         display: inline-block;
         padding: 2em 3em;
         background-color:  rgb(115,87,184); /* purple */
@@ -259,5 +260,5 @@ h5{margin-top:5px;}
     
       /* Custom link hover effect */
       .custom-link:hover {
-        background-color: rgb(144, 127, 187); /* darker green */
+        background-color: rgb(115,87,184); /* lighter purple */
       }
