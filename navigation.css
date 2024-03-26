@@ -8,7 +8,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: rgb(115, 87, 184);
+      background: rgb(73, 52, 127);
       text-align: center;
       top:0px;
       position: fixed;
@@ -17,6 +17,7 @@
   }
   
   .logo {
+   color: white; 
     margin: 0;
   }
   /* where to change the background color of the pop-up nav bar*/

@@ -100,12 +100,43 @@ h5{
   font-size:500px;
 }
 
-.variations{
+.downloads{
+  font-size: 3rem;
 grid-area: v;
+margin-left: 700px;
+}
+.downloads-paragraph{
+  font-size: 1.5rem;
+  grid-area: v;
+margin-left: 700px;
+}
+.downloads-paragraph-2{
+  font-size: 1.5rem;
+  grid-area: v;
+margin-left: 700px;
+}
+.alphabet {
+  font-size: 3rem;
+grid-area: a;
+margin-left: 700px;
 }
 
-.alphabet {
-grid-area: a;
+.alphabet-paragraph{
+  font-size: 1.5rem;
+  margin-left: 700px;
+  grid-area:a;
+}
+
+.alphabet-paragraph-2{
+  font-size: 1.5rem;
+  margin-left: 700px;
+  grid-area:a;
+}
+
+.alphabet-paragraph-3{
+  font-size: 1.5rem;
+  margin-left: 700px;
+  grid-area:a;
 }
 
 .early-development{
@@ -202,8 +233,8 @@ h5{margin-top:5px;}
     /* Custom link with background and border */
     .custom-link {
         display: inline-block;
-        padding: 0.5em 1em;
-        background-color: #4caf50; /* green */
+        padding: 2em 3em;
+        background-color:  rgb(115,87,184); /* purple */
         color: #fff;
         text-decoration: none;
         border-radius: 5px;
@@ -228,5 +259,5 @@ h5{margin-top:5px;}
     
       /* Custom link hover effect */
       .custom-link:hover {
-        background-color: #388e3c; /* darker green */
+        background-color: rgb(144, 127, 187); /* darker green */
       }
