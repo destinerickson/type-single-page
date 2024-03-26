@@ -56,23 +56,23 @@ background-color: rgb(115, 87, 184);
   display: grid;
   grid-gap: 3px;
   padding:10px;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
   grid-template-areas: 
-      ". r r s s s w w w w w ."
-      ". r r s s s w w w w w ."
-      ". r r s s s w w w w w .";
-}
+      "r s w"
+      "r s w"
+      "r s w";
 
+}
 .huge-r{
   grid-area: r;
-  margin-left:-20px;
+  margin-left: 70px;
 }
 
 .small-title{
 grid-area: s;
 color:white;
-margin-left: -30;
+margin-left: -200px;
 font-size:120px;
 padding-top:110px;
 writing-mode:vertical-lr;
@@ -85,15 +85,21 @@ writing-mode:vertical-lr;
 }
 
 .history-header{
-  color:rgb(255, 255, 255);}
+  font-size: 3rem;
+  color:rgb(255, 255, 255);
+  margin-left: -100px;
+}
 
  .history-paragraph{
+  font-size: 1.5rem;
   color:white;
+  margin-left: -100px;
  } 
 h5{
   color:white;
   font-size:500px;
 }
+
 .variations{
 grid-area: v;
 }
@@ -101,9 +107,20 @@ grid-area: v;
 .alphabet {
 grid-area: a;
 }
+
 .early-development{
+  width:100%;
+  display: grid;
+  grid-gap: 3px;
+  padding:10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+      "r s w"
+      "r s w"
+      "r s w";
 background-color: #fff;
-margin-top: 40px;
+margin-top: 3px;
   
 }
 
@@ -165,41 +182,7 @@ h3{
 }
 
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
 
-  footer{
-    background-image:url("assets/footer-background.svg");
-  }
-
-  /* .footer-wrapper {
-    width:100%;
-    display: grid;
-    grid-gap: 3px;
-    padding:10px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 
-        ". . c c c c c c c c c ."
-        ". . c c c c c c c c c ."
-        ". . c c c c c c c c c .";
-}
-
-.contact-wrapper {
-    grid-area: c;
-}
-
-.circle-wrapper{
-  grid-area: w;
-}
-
-
-.star-burst-wrapper {
-    grid-area: b;
-} */
 
 /* typographic styling */
 h3{
@@ -208,20 +191,7 @@ h3{
 h5{margin-top:5px;}
 
   
-  /* For desktop devices */
-  @media screen and (min-width: 768px) {
-    .footer-wrapper {
-      width:100%;
-      display: grid;
-      grid-gap: 3px;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: auto auto auto;
-      grid-template-areas: 
-      ". . c c c c c c c c c ."
-      ". . c c c c c c c c c ."
-      ". . c c c c c c c c c .";
-  }
-  }
+ 
     /* Custom link with background and border */
     .custom-link {
         display: inline-block;
